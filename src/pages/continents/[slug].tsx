@@ -4,7 +4,7 @@ import Head from "next/head"
 
 import { RiInformationLine } from "react-icons/ri"
 
-import { Box, Text, Image, Flex, Stack, Icon, Tooltip, SimpleGrid } from "@chakra-ui/react"
+import { Box, Text, Image, Flex, Stack, Icon, SimpleGrid } from "@chakra-ui/react"
 
 import { Header } from "../../components/Header"
 
