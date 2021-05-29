@@ -1,5 +1,7 @@
 import { Image } from "@chakra-ui/image";
-import { Box, Flex, Text } from "@chakra-ui/layout";
+import { Box, Divider, Flex, Text } from "@chakra-ui/layout";
+import { Carousel } from "../components/Carousel";
+
 import { Categories } from "../components/Categories";
 
 import { Header } from "../components/Header";
@@ -45,6 +47,26 @@ export default function Home() {
 
       <Box maxW={1240} w="100%" mx="auto">
         <Categories />
+
+        <Divider 
+          borderColor="gray.800" 
+          borderTopWidth={1} 
+          mt="20" 
+          mb="14"
+          mx="auto" 
+          w={90} 
+        />
+
+        <Text 
+          fontSize="3xl" 
+          textAlign="center"
+          color="gray.800"
+        >
+          Vamos nessa? <br />
+          Então escolha seu continente
+        </Text>
+
+        <Carousel />
       </Box>
     </>
   )
