@@ -3,19 +3,19 @@
 }
 
 .swiper-button-next {
-  color: #FFBA08;
+  color: #FFBA08 !important;
   margin-right: 42px;
 }
 
 .swiper-button-prev {
-  color: #FFBA08;
+  color: #FFBA08 !important;
   margin-left: 42px;
 }
 
 .swiper-pagination-bullet {
-  background: #999999;
+  background: #fff !important;
 }
 
 .swiper-pagination-bullet-active {
-  background: #FFBA08;
+  background: #FFBA08 !important;
 }

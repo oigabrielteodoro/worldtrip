@@ -1,7 +1,8 @@
 import { Image } from "@chakra-ui/image";
 import { Box, Divider, Flex, Text } from "@chakra-ui/layout";
-import { Carousel } from "../components/Carousel";
 
+import { Continents } from "../components/Continents";
+ 
 import { Categories } from "../components/Categories";
 
 import { Header } from "../components/Header";
@@ -11,14 +12,18 @@ export default function Home() {
     <>
       <Header />
  
-      <Box 
-        bgImage="/static/img/background.png" 
-        bgPosition="right"
-        height="335px"
-        py="20"
-        px="36"
-      >
-        <Flex maxW={1240} w="100%" mx="auto" position="relative" direction="column" align="flex-start">
+      <Box position="relative" height="335px">
+        <Image src="/static/img/background.png" alt="Background" position="absolute" zIndex="-1" width="100%" />
+
+        <Flex 
+          maxW={1240}
+          w="100%" 
+          mx="auto" 
+          position="relative" 
+          direction="column" 
+          align="flex-start"
+          py="20"
+        >
           <Text 
             fontSize="4xl" 
             color="gray.50" 
@@ -65,7 +70,7 @@ export default function Home() {
           Então escolha seu continente
         </Text>
 
-        <Carousel />
+        <Continents />
       </Box>
     </>
   )
