@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <>
       <Header />
-
+ 
       <Box 
         bgImage="/static/img/background.png" 
         bgPosition="right"
@@ -18,7 +18,7 @@ export default function Home() {
         py="20"
         px="36"
       >
-        <Flex position="relative" direction="column" align="flex-start">
+        <Flex maxW={1240} w="100%" mx="auto" position="relative" direction="column" align="flex-start">
           <Text 
             fontSize="4xl" 
             color="gray.50" 
@@ -34,15 +34,14 @@ export default function Home() {
           >
             Chegou a hora de tirar do papel a viagem que você <br />sempre sonhou. 
           </Text>
-        </Flex>
 
-        <Image 
-          position="absolute" 
-          top="176px" 
-          right="140px" 
-          src="/static/img/airplane.svg" 
-          alt="Airplane" 
-        />
+          <Image 
+            position="absolute"  
+            right="0" 
+            src="/static/img/airplane.svg" 
+            alt="Airplane" 
+          />
+        </Flex>
       </Box>
 
       <Box maxW={1240} w="100%" mx="auto">
