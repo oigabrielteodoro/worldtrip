@@ -5,15 +5,19 @@ import { Box, Flex, Image, Text } from '@chakra-ui/react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 import { api } from '../../services/api';
+import { useRouter } from 'next/dist/client/router';
 
 interface Continent {
   id: number;
+  slug: string;
   title: string;
   description: string;
   thumbnail: string;
 }
 
 export function Continents() {
+  const router = useRouter();
+
   const [continents, setContinents] = useState<Continent[]>([]);
 
   useEffect(() => {
@@ -22,11 +26,15 @@ export function Continents() {
     });
   }, []); 
 
+  function handleNavigate(slug: string) {
+    router.push(`/continents/${slug}`);
+  }
+
   return (
     <Box my="14"> 
       <Swiper navigation pagination className="swiper-container">
         {continents.map(continent => (
-          <SwiperSlide key={continent.id}>
+          <SwiperSlide key={continent.id} onClick={() => handleNavigate(continent.slug)}>
             <Box position="relative" h={450}>
               <Image 
                 w="100%"

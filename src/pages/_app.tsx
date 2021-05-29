@@ -4,6 +4,8 @@ import { ChakraProvider } from "@chakra-ui/react";
 
 import SwiperCore, { Navigation, Pagination } from 'swiper/core';
 
+import { theme } from "../styles/theme";
+
 import '../styles/customSwiper.css';
 
 import 'swiper/swiper.scss';
@@ -14,7 +16,7 @@ SwiperCore.use([Navigation, Pagination]);
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <ChakraProvider>
+    <ChakraProvider theme={theme}>
       <Component {...pageProps} />
     </ChakraProvider>
   ) 

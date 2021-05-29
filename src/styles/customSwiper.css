@@ -1,5 +1,6 @@
 .swiper-container {
   border-radius: 8px;
+  cursor: pointer;
 }
 
 .swiper-button-next {

@@ -16,7 +16,7 @@ export default function Home() {
         <title>WorldTrip</title>
       </Head>
 
-      <Header />
+      <Header shouldExcludeBackButton />
  
       <Box position="relative" height="335px">
         <Image src="/static/img/background.png" alt="Background" position="absolute" zIndex="-1" width="100%" />

@@ -3,36 +3,42 @@
     {
       "id": 1,
       "title": "Europa",
+      "slug": "europa",
       "description": "O continente mais antigo.",
       "thumbnail": "https://images.unsplash.com/photo-1471623432079-b009d30b6729?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
     },
     {
       "id": 2,
       "title": "Dubai",
+      "slug": "dubai",
       "description": "Os maiores arranha-céus do planeta.",
       "thumbnail": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZHViYWl8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
     },
     {
       "id": 3,
       "title": "Canadá",
+      "slug": "canada",
       "description": "A melhor recepção turística",
       "thumbnail": "https://images.unsplash.com/photo-1605544553458-256f8bed2228?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Y2FuYWQlQzMlQTF8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
     },
     {
       "id": 4,
       "title": "Califórnia",
+      "slug": "california",
       "description": "Um dos mais bonitos dos EUA",
       "thumbnail": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Y2FsaWZvcm5pYXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
     },
     {
       "id": 5,
       "title": "Nova York",
+      "slug": "new-york",
       "description": "Tecnologia é aqui mesmo!",
       "thumbnail": "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bmV3JTIweW9ya3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
     }, 
     {
       "id": 6,
       "title": "Cancún", 
+      "slug": "cancun",
       "description": "Um dos melhores lugares para ter contato com a natureza!",
       "thumbnail": "https://images.unsplash.com/photo-1552074284-5e88ef1aef18?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Y2FuY3VufGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
     }

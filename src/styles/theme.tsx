@@ -21,8 +21,8 @@ export const theme = extendTheme({
     }
   },
   fonts: {
-    heading: 'Poppings',
-    body: 'Poppings',
+    heading: 'Poppins',
+    body: 'Poppins',
   },
   styles: {
     global: {
