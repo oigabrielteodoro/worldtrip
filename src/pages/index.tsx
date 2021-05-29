@@ -1,6 +1,8 @@
 import { Image } from "@chakra-ui/image";
 import { Box, Divider, Flex, Text } from "@chakra-ui/layout";
 
+import Head from 'next/head';
+
 import { Continents } from "../components/Continents";
  
 import { Categories } from "../components/Categories";
@@ -10,6 +12,10 @@ import { Header } from "../components/Header";
 export default function Home() {
   return (
     <>
+      <Head>
+        <title>WorldTrip</title>
+      </Head>
+
       <Header />
  
       <Box position="relative" height="335px">
