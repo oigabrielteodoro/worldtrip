@@ -18,6 +18,11 @@ export function Categories() {
           flexDirection="column"
           align="center"
           justify="center"
+          transition="0.2s"
+          cursor="pointer"
+          _hover={{
+            opacity: 0.7,
+          }}
         >
           <Image src={category.img} alt={category.name} h={85} />
           <Text mt="6" fontWeight="semibold" fontSize="1xl">
